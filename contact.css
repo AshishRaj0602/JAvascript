@@ -1,0 +1,55 @@
+body{
+    background: url(5.jpg);
+    height: 100vh;
+    margin: auto;
+}
+.container {
+    display: flex;
+    position: absolute;
+    /* height: 400px;
+    width: 300px; */
+    top: 14%;
+    left: 22%;
+  }
+    .container .img {
+        height: 500px;
+        width: 350px;
+        overflow: hidden;
+      }
+    .container .img img {
+        height: 500px;
+        /* width: 300px; */
+      }
+      .form{
+        background-color: rgb(38, 54, 63);
+        height: 500px;
+        width: 350px;
+      }
+      .form form input{
+        height: 30px;
+        position: relative;
+        width: 350px;
+        background: none;
+        outline: none;
+        border: none;
+        display: block;
+        padding: 10px 0;
+        width: 100%;
+        border-bottom: 2px solid #96a2b6;
+        color: #fff;
+        font-size: 15px;
+        font-family: "Nimbus-sans", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: none;
+        font-family: "Nimbus-sans", sans-serif;
+      }form{
+        color: white;
+        text-align: center;
+      }
+      input::placeholder{
+        transform: translateY(15px);
+      }
+
+
+      

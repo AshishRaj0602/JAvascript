@@ -1,0 +1,90 @@
+*{
+  margin: 0px 10px 0px 10px;
+}
+.container{
+  display: grid;
+  row-gap: 100px;
+}
+.nav{
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 4fr auto auto auto;
+  column-gap: 50px;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+  align-items: center;
+}
+.nav >a{
+  color: black;
+}
+.nav >a:hover{
+  color: #F28066;
+}
+#logo{
+  height: 24px;
+  aspect-ratio: auto 50 / 24;
+  width: 50px;
+}
+  #bio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px,1fr));
+    grid-template-rows: 1fr;
+    gap: 10px 50px;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+#button0 {
+  width: 200px;
+  height: 64px;
+  font-size: 20px;
+  background-color: #F28066;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-style: hidden;
+}
+#bio-text{
+  margin-left: 100px;
+}
+#text-part-1{
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+}
+#case-study-button{
+  color: #F28066;
+  text-decoration: none;
+}
+#button4-1 {
+  background-color: #FFEEE7;
+  border: 2px solid #F28066;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  color: #F28066;
+  height: 64px;
+  width: 200px;
+}
+.project-1{
+display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px,1fr));
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    background-color: #FFEEE7;
+    align-items: center;
+}
+.footer{
+  height: 200px;
+  align-items: center;
+  text-align: center;
+}
+.mr{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1190px){
+  #text-part-1{
+    text-align: center;
+  }
+}
